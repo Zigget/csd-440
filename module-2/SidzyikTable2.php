@@ -1,26 +1,23 @@
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'
-  'http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd'>
+<!---
+Written by Samuel Sidzyik
+CSD440
+10/31/2026
 
+The code example you gave us in the first module was spaced out. I was copying that formatting.
+I like it better written tighter like this. Thank you for brining that up on the last assign notes.
+--->
+<!DOCTYPE HTML>
 <html>
-
   <head>
-
     <title>
-
-      PHP
-
+      PHP Module 2.2 _ Sidzyik
     </title>
-
   </head>
 
   <body>
-
     <script language="PHP">
-
       print("Hello World line 1<br />");
-
     </script>
-
     <table>
       This was just testing my table. Purposefully left in
     <?php
@@ -70,5 +67,4 @@
 </table>
 
   </body>
-
 </html>
