@@ -8,7 +8,7 @@ CSD440
 <html>
   <head>
     <title>
-      PHP Module 2.2 _ Sidzyik
+      PHP Module 5.2 _ Sidzyik
       <?php require 'Sidzyikfunctions.php'; ?>
     </title>
   </head>
