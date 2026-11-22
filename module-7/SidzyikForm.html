@@ -1,0 +1,47 @@
+<!---
+Written by Samuel Sidzyik
+CSD440
+11/20/2026
+
+
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information Form</title>
+</head>
+<body>
+    <h1>User Information Form</h1>
+
+    <form action="SidzyikResponse.php" method="post">
+
+        <label>First Name:</label><br>
+        <input type="text" name="firstName"><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="lastName"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <!---I don't like the native date picker--->
+        <label>Birth Date:</label><br>
+        <input type="date" name="birthDate"><br><br>
+
+        <label>Favorite Color:</label><br>
+        <input type="color" name="favoriteColor"><br><br>
+
+        <label>
+            <input type="checkbox" name="conspiracy">
+            Check if you know birds aren't real.
+        </label><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
